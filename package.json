@@ -1,0 +1,39 @@
+{
+  "name": "create-ts-code",
+  "version": "0.2.3",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qweasd1/create-ts-code"
+  },
+  "author": "",
+  "license": "MIT",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/es6-collections": "^0.5.31",
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.0",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "/test/.*Test[.]ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
